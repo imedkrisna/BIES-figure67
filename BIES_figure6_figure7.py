@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
+# Import the os module
+import os
+
+# Get the current working directory
+cwd = os.getcwd()
+
+# Print the current working directory
+print("Current working directory: {0}".format(cwd))
+path = r"C:\Users\imedk\OneDrive - Australian National University\ANU Skul\aaa paper 1\BIES_FINAL"
+os.chdir(path)
+
+# Print the current working directory
+print("Current working directory: {0}".format(os.getcwd()))
+
 
 # In[1]:
 
